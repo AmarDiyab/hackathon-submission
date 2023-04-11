@@ -1,0 +1,36 @@
+.edit-hackathon {
+  background: #f8f9fd;
+  padding: 72px 0;
+}
+.edit-hackathon .upload-form {
+  max-width: 913px;
+  margin: 0 142px;
+  padding: 40px 48px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.edit-hackathon .upload-form .description .word-count {
+  text-align: end;
+}
+.edit-hackathon .upload-form .dates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.edit-hackathon .upload-form .dates > div {
+  width: 337px;
+}
+.edit-hackathon .upload-form .btn {
+  width: 192px;
+}
+
+@media (max-width: 880px) {
+  .edit-hackathon {
+    padding: 0;
+  }
+  .edit-hackathon .upload-form {
+    margin: 0;
+  }
+}

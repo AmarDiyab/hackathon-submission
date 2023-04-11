@@ -1,0 +1,8 @@
+.searchbar {
+  max-width: 300px;
+}
+.searchbar .searchinput {
+  outline: none;
+  border: none;
+  margin: 7px;
+}

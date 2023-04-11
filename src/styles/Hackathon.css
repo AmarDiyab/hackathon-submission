@@ -1,0 +1,109 @@
+.hackathon .hero {
+  color: #ffffff;
+  background-color: #003145;
+  padding: 96px 0;
+}
+.hackathon .hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hackathon img.hero-img {
+  width: 120px;
+  height: 120px;
+}
+.hackathon .title {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.hackathon .title h1 {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+}
+.hackathon .title-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hackathon .title-btns .btn {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 6px 18px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hackathon .hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.hackathon .hero-btns .favourite-btn:hover {
+  cursor: pointer;
+}
+.hackathon .hero-btns .btn.date {
+  background-color: #255973;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hackathon .hackathon-details {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  gap: 24px;
+}
+.hackathon .hackathon-details .hackathon-desc {
+  max-width: 763px;
+}
+.hackathon .hackathon-details .details {
+  max-width: 275px;
+}
+.hackathon .hackathon-details .details .details-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hackathon .hackathon-details .details .details-txt .dates {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hackathon .hackathon-details .details .buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 213px;
+  gap: 16px;
+}
+.hackathon .hackathon-details .details .buttons .btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.hackathon .hackathon-details .details .buttons button:hover {
+  background-color: transparent;
+  color: #003145;
+}
+
+@media (max-width: 800px) {
+  .hackathon .hero {
+    flex-wrap: wrap-reverse;
+  }
+}

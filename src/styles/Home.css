@@ -1,0 +1,78 @@
+.home .hero {
+  color: #ffffff;
+  background-color: #003145;
+  padding: 58px 0;
+}
+.home .hero-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 164px;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .hero-txt {
+  max-width: 792px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.home .hero-txt h1 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+}
+.home .hero-txt p {
+  font-size: 17px;
+  line-height: 26px;
+}
+.home .hero-txt .btn {
+  width: 194px;
+  height: 52px;
+}
+.home img.hero-img {
+  width: 200px;
+  height: 300px;
+}
+
+.home .tabs-section {
+  width: 90%;
+  padding-top: 57px;
+}
+.home .tabs > div {
+  padding: 7px 24px;
+  cursor: pointer;
+}
+.home .tabs .active {
+  border-bottom: 4px solid #44924c;
+  font-weight: 500;
+}
+.home .dropdown-item:hover {
+  background-color: #e3f2e5;
+}
+
+.home .hackathonlist-section {
+  width: 90%;
+  padding-top: 57px;
+}
+
+@media (max-width: 800px) {
+  .home .hero .hero-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+  }
+  .home .hero .hero-container .hero-txt {
+    order: 2;
+  }
+  .home .hero .hero-container img {
+    order: 1;
+  }
+}
+@media (max-width: 720px) {
+  .home .tabs-section {
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+  }
+}

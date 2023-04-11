@@ -1,0 +1,6 @@
+.hackathon-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, 340px);
+  margin-bottom: 100px;
+}

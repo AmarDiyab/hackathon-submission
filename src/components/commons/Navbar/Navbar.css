@@ -1,0 +1,8 @@
+nav div {
+  width: 90%;
+  margin: auto;
+}
+nav img {
+  margin: 12px 0;
+  cursor: pointer;
+}
